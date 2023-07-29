@@ -1,0 +1,49 @@
+pkg:npm/postcss-value-parser
+{
+  "package_url": "pkg:npm/postcss-value-parser",
+  "contacts": [
+    {
+      "priority": 45,
+      "type": "email",
+      "source": "npm registry (latest.maintainer)",
+      "name": "beneb",
+      "value": "beneb.info@gmail.com"
+    },
+    {
+      "priority": 45,
+      "type": "email",
+      "source": "npm registry (_npmUser),npm registry (latest.maintainer)",
+      "name": "evilebottnawi",
+      "value": "sheo13666q@gmail.com"
+    },
+    {
+      "priority": 50,
+      "type": "email",
+      "source": "https://raw.githubusercontent.com/trysound/postcss-value-parser/master/LICENSE,npm registry (author),npm registry (latest.maintainer)",
+      "name": "Bogdan Chadkin,trysound",
+      "value": "trysound@yandex.ru"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_email",
+      "value": "securitylab@github.com",
+      "source": "GitHub Security Lab"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://snyk.io/vulnerability-disclosure/",
+      "source": "Snyk Vulnerability Disclosure Program"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://www.kb.cert.org/vuls/report/",
+      "source": "CERT/CC Vulnerability Reporting Form"
+    }
+  ],
+  "related_purls": [
+    "pkg:github/trysound/postcss-value-parser"
+  ],
+  "notes": []
+}
