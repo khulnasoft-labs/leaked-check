@@ -1,0 +1,72 @@
+pkg:pypi/requests
+{
+  "package_url": "pkg:pypi/requests",
+  "contacts": [
+    {
+      "priority": 0,
+      "type": "github_pvr",
+      "value": "https://github.com/psf/requests/security/advisories/new",
+      "source": "https://github.com/psf/requests/security/advisories"
+    },
+    {
+      "priority": 65,
+      "type": "email",
+      "source": "Pull requests merged by kennethreitz,pypi registry (author)",
+      "name": "Kenneth Reitz,kennethreitz",
+      "value": "me@kennethreitz.org"
+    },
+    {
+      "priority": 65,
+      "type": "email",
+      "source": "Pull requests merged by nateprewitt",
+      "name": "nateprewitt",
+      "value": "nate.prewitt@gmail.com"
+    },
+    {
+      "priority": 70,
+      "type": "url",
+      "value": "http://www.apache.org/licenses/",
+      "source": "https://raw.githubusercontent.com/psf/requests/main/LICENSE"
+    },
+    {
+      "priority": 70,
+      "type": "url",
+      "value": "https://keybase.io",
+      "source": "https://raw.githubusercontent.com/psf/requests/main/.github/SECURITY.md"
+    },
+    {
+      "priority": 70,
+      "type": "url",
+      "value": "https://keybase.io/nateprewitt)",
+      "source": "https://raw.githubusercontent.com/psf/requests/main/.github/SECURITY.md"
+    },
+    {
+      "priority": 70,
+      "type": "url",
+      "value": "https://keybase.io/sethmlarson)",
+      "source": "https://raw.githubusercontent.com/psf/requests/main/.github/SECURITY.md"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_email",
+      "value": "securitylab@github.com",
+      "source": "GitHub Security Lab"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://snyk.io/vulnerability-disclosure/",
+      "source": "Snyk Vulnerability Disclosure Program"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://www.kb.cert.org/vuls/report/",
+      "source": "CERT/CC Vulnerability Reporting Form"
+    }
+  ],
+  "related_purls": [
+    "pkg:github/psf/requests"
+  ],
+  "notes": []
+}
