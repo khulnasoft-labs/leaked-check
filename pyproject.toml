@@ -1,15 +1,18 @@
-[tool.poetry]
-name = "leaked-check"
+[project]
+name = "leakedcheck"
 version = "0.1.0"
+authors = [
+  { name="Md Sulaiman", email="infosulaiman@icloud.com" },
+]
 description = "Discover methods for leaked security vulnerabilities to a project privately."
-authors = ["sulaiman-coder <51925710+sulaiman-coder@users.noreply.github.com>"]
-license = "Apache Software License"
 readme = "README.md"
-packages = [{include = "leaked_check"}]
-
-[tool.poetry.dependencies]
-python = "^3.10"
-
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
   "packageurl-python >= 0.11.1",
   "PyGithub >= 1.58.1",
