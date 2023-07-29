@@ -4,7 +4,7 @@ ARG OSSGADGET_VERSION="0.1.406"
 
 WORKDIR /app
 
-COPY /leakedcheck-*.tar.gz /app/
+COPY dist/leakedcheck-*.tar.gz /app/
 
 RUN cd /app && \
     pip install leakedcheck-*.tar.gz
