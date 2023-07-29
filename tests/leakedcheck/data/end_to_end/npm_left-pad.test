@@ -1,0 +1,54 @@
+pkg:npm/left-pad
+{
+  "package_url": "pkg:npm/left-pad",
+  "contacts": [
+    {
+      "priority": 45,
+      "type": "email",
+      "source": "npm registry (latest.maintainer)",
+      "name": "westlac",
+      "value": "cameron.westland@autodesk.com"
+    },
+    {
+      "priority": 45,
+      "type": "email",
+      "source": "npm registry (_npmUser),npm registry (latest.maintainer)",
+      "name": "stevemao",
+      "value": "maochenyan@gmail.com"
+    },
+    {
+      "priority": 45,
+      "type": "email",
+      "source": "npm registry (latest.maintainer)",
+      "name": "sebmck",
+      "value": "sebmck@gmail.com"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_email",
+      "value": "securitylab@github.com",
+      "source": "GitHub Security Lab"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://snyk.io/vulnerability-disclosure/",
+      "source": "Snyk Vulnerability Disclosure Program"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://www.kb.cert.org/vuls/report/",
+      "source": "CERT/CC Vulnerability Reporting Form"
+    }
+  ],
+  "related_purls": [
+    "pkg:github/left-pad/left-pad",
+    "pkg:github/stevemao/left-pad"
+  ],
+  "notes": [
+    "Repository left-pad/left-pad has been archived.",
+    "Repository stevemao/left-pad has been archived.",
+    "Repository was moved from stevemao/left-pad to left-pad/left-pad."
+  ]
+}
