@@ -1,0 +1,41 @@
+pkg:cargo/pcre
+{
+  "package_url": "pkg:cargo/pcre",
+  "contacts": [
+    {
+      "priority": 65,
+      "type": "email",
+      "source": "Pull requests merged by cadencemarseille,https://github.com/cadencemarseille",
+      "value": "cadencemarseille@gmail.com",
+      "name": "cadencemarseille"
+    },
+    {
+      "priority": 70,
+      "type": "url",
+      "value": "http://www.rust-ci.org/cadencemarseille/rust-pcre/doc/pcre/",
+      "source": "https://raw.githubusercontent.com/cadencemarseille/rust-pcre/master/Cargo.toml"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_email",
+      "value": "securitylab@github.com",
+      "source": "GitHub Security Lab"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://snyk.io/vulnerability-disclosure/",
+      "source": "Snyk Vulnerability Disclosure Program"
+    },
+    {
+      "priority": 100,
+      "type": "fallback_url",
+      "value": "https://www.kb.cert.org/vuls/report/",
+      "source": "CERT/CC Vulnerability Reporting Form"
+    }
+  ],
+  "related_purls": [
+    "pkg:github/cadencemarseille/rust-pcre"
+  ],
+  "notes": []
+}
