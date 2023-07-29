@@ -6,8 +6,8 @@ import requests
 from github import Github, UnknownObjectException
 from packageurl import PackageURL
 
-from disclosurecheck.util.context import Context
-from disclosurecheck.collectors.github import get_github_token
+from leakedcheck.util.context import Context
+from leakedcheck.collectors.github import get_github_token
 
 from ..util.searchers import sanitize_github_url
 

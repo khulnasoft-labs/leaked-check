@@ -6,7 +6,7 @@ import requests
 import yaml
 from packageurl import PackageURL
 
-from disclosurecheck.util.context import Context
+from leakedcheck.util.context import Context
 from ..util.normalize import sanitize_github_url
 
 logger = logging.getLogger(__name__)

@@ -10,10 +10,10 @@ import requests
 from github import Github
 from packageurl import PackageURL
 
-from disclosurecheck.collectors.securityinsights import analyze_securityinsights
-from disclosurecheck.util.context import Context
-from disclosurecheck.util.normalize import normalize_packageurl
-from disclosurecheck.util.searchers import find_contacts
+from leakedcheck.collectors.securityinsights import analyze_securityinsights
+from leakedcheck.util.context import Context
+from leakedcheck.util.normalize import normalize_packageurl
+from leakedcheck.util.searchers import find_contacts
 
 from ..util.normalize import normalize_packageurl, sanitize_github_url
 

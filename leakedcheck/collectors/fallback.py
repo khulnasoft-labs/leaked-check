@@ -1,6 +1,6 @@
 import logging
 
-from disclosurecheck.util.context import Context
+from leakedcheck.util.context import Context
 
 logger = logging.getLogger(__name__)
 

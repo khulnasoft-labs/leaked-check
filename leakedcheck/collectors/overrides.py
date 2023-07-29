@@ -8,7 +8,7 @@ import csv
 import requests
 from packageurl import PackageURL
 from packageurl.contrib.url2purl import url2purl
-from disclosurecheck.util.context import Context
+from leakedcheck.util.context import Context
 from ..util.normalize import normalize_packageurl, sanitize_github_url
 from urlextract import URLExtract
 from urllib.parse import urlparse

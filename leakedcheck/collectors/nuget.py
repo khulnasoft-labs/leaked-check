@@ -5,8 +5,8 @@ from functools import lru_cache
 import requests
 from packageurl import PackageURL
 
-from disclosurecheck.util.context import Context
-from disclosurecheck.util.normalize import normalize_packageurl, sanitize_github_url
+from leakedcheck.util.context import Context
+from leakedcheck.util.normalize import normalize_packageurl, sanitize_github_url
 
 logger = logging.getLogger(__name__)
 

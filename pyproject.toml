@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "leaked-check"
+version = "0.1.0"
+description = "Discover methods for leaked security vulnerabilities to a project privately."
+authors = ["sulaiman-coder <51925710+sulaiman-coder@users.noreply.github.com>"]
+license = "Apache Software License"
+readme = "README.md"
+packages = [{include = "leaked_check"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+dependencies = [
+  "packageurl-python >= 0.11.1",
+  "PyGithub >= 1.58.1",
+  "requests >= 2.28.2",
+  "requests-cache >= 1.0.1",
+  "urllib3 >= 1.26.15",
+  "urlextract",
+  "PyYAML >= 6.0",
+  "rich",
+  "validators >= 0.20.0",
+  "beautifulsoup4 >= 4.12.2",
+]
+
+license = {file = "LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/khulnasoft-labs/leaked-check"
+"Bug Tracker" = "https://github.com/khulnasoft-labs/leaked-check/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["*tests*"]
+
+[project.scripts]
+leakedcheck = "leakedcheck.main:start"
+
+[tool.pdm.scripts]
+test = "python -m unittest discover -s tests.leakedcheck -t ."

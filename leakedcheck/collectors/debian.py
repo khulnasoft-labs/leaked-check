@@ -6,9 +6,9 @@ import logging
 import requests
 from packageurl import PackageURL
 
-from disclosurecheck.util.normalize import normalize_packageurl
-from disclosurecheck.util.searchers import extract_emails
-from disclosurecheck.util.context import Context
+from leakedcheck.util.normalize import normalize_packageurl
+from leakedcheck.util.searchers import extract_emails
+from leakedcheck.util.context import Context
 from ..util.searchers import sanitize_github_url
 
 logger = logging.getLogger(__name__)
