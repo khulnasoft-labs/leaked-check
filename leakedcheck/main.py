@@ -204,6 +204,15 @@ def start():
 
     dc = LeakedCheck(purl)
     if not args.json:
+        # fmt: off
+        console.print("[red]KhulnaSoft Presents...")
+        console.print("[bold blue].____                  __              .____________ .__                   __     ")
+        console.print("[bold blue]|    |    ____ _____  |  | __ ____   __| _/\_   ___ \|  |__   ____   ____ |  | __ ")
+        console.print("[bold blue]|    |  _/ __ \\__  \ |  |/ // __ \ / __ | /    \  \/|  |  \_/ __ \_/ ___\|  |/ / ")
+        console.print("[bold blue]|    |__\  ___/ / __ \|    <\  ___// /_/ | \     \___|   Y  \  ___/\  \___|    <  ")
+        console.print("[bold blue]|_______ \___  >____  /__|_ \\___  >____ |  \______  /___|  /\___  >\___  >__|_ \ ")
+        console.print("[bold blue]        \/   \/     \/     \/    \/     \/         \/     \/     \/     \/     \/ ")
+        # fmt: on
     try:
         dc.execute()
     except:
