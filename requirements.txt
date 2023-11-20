@@ -2,7 +2,7 @@ attrs==23.1.0
 beautifulsoup4==4.12.2
 black==23.9.1
 build==1.0.3
-cattrs==23.1.2
+cattrs==23.2.1
 certifi==2023.7.22
 cffi==1.16.0
 charset-normalizer==3.3.2
