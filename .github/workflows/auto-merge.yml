@@ -1,0 +1,14 @@
+name: Trigger merge request
+
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: write
+
+jobs:
+  fix-linting:
+    name: PR Merge
+    uses: khulnasoft-lab/workflows/.github/workflows/auto-merge.yml@main
+    secrets: inherit
