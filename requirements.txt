@@ -43,6 +43,6 @@ typing_extensions==4.8.0
 uritools==4.0.2
 url-normalize==1.4.3
 urlextract==1.8.0
-urllib3==2.1.0
+urllib3==2.2.2
 validators==0.22.0
 wrapt==1.16.0
